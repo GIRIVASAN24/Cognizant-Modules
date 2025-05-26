@@ -1,8 +1,6 @@
 /* Question 1: CSS Inclusion Methods */
-/* This is the external stylesheet (styles.css) for reusable styles */
-
 /* Question 2: Syntax and Comments */
-/* General Reset and Box-Sizing */
+
 * {
   margin: 0;
   padding: 0;
@@ -10,7 +8,6 @@
 }
 
 /* Question 3: Selectors Playground */
-/* ID Selector */
 #mainHeader {
   background-color: #004080;
   color: white;
@@ -18,21 +15,16 @@
   text-align: center;
 }
 
-/* Element Selector */
 h2 {
   color: #004080;
   margin-bottom: 10px;
 }
-
-/* Class Selector */
 .eventCard {
   background-color: #f0f8ff;
   padding: 15px;
   margin: 10px;
   border: 1px solid #ccc;
 }
-
-/* Grouping Selector */
 h3, p {
   font-family: Arial, sans-serif;
   color: #333;
